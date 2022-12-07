@@ -24,9 +24,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.android.devbyteviewer.database.getDatabase
-import com.example.android.devbyteviewer.domain.DevByteVideo
-import com.example.android.devbyteviewer.network.DevByteNetwork
-import com.example.android.devbyteviewer.network.asDomainModel
+
 import com.example.android.devbyteviewer.repository.VideosRepository
 import kotlinx.coroutines.*
 import java.io.IOException
